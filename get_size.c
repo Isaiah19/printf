@@ -3,6 +3,7 @@
 /**
  * get_size - Calculates the size to cast the argument
  * @format: Formatted string in which to print the arguments
+ * @format: A pointer to th string
  * @i: List of arguments to be printed.
  * Return: Precision.
  */

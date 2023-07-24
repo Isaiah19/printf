@@ -6,8 +6,8 @@
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
- * @width: get width
- * @precision: Precision specification
+ * @width: get width in code
+ * @precision: Precision specifier
  * @size: Size specifier
  * Return: Number of chars printed.
  */
@@ -48,7 +48,7 @@ int flags, int width, int precision, int size)
 	width, flags, padd, extra_c, padd_start));
 }
 
-/************************* PRINT NON PRINTABLE *************************/
+/************************* PRINT NON PRINTABLE ************************/
 /**
  * print_non_printable - Prints ascii codes in hexa of non printable chars
  * @types: Lista of arguments
